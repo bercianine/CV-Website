@@ -54,21 +54,22 @@ body {
 
  .flex {
   display: flex;
-  max-width: 1000px;
+  max-width: 1040px;
   margin: auto;
   margin-bottom: 24px;
  }
 
  .columnTitle {
-  flex: 1 1 25%;
+  flex: 1 1 30%;
+  margin-top: -16px;
   margin-left: 32px;
   margin-right: 24px;
-  font-size: 24px;
-  line-height: 8px;
+  font-size: 28px;
+  line-height: 0px;
  }
 
  .columnContent {
-  flex: 1 1 75%;
+  flex: 1 1 70%;
   margin-right: 32px;
  }
 
@@ -101,7 +102,15 @@ body {
   padding: 10px;
  }
 
+ /* Emoji Styles */
+
  .emojiTitle {
   max-width: 80px;
   margin-bottom: -16px;
+ }
+
+ .emojiTopics {
+  max-width: 48px;
+  margin-bottom: -6px;
+  margin-left: 8px;
  }
