@@ -88,22 +88,23 @@ body {
 
  .box {
   display: block;
-  max-width: 1040px;
+  max-width: 1080px;
   margin: auto;
-  background-color: #F5F5F5;
+  background-color: #110708;
+  color: #F9F9F2;
   border-radius: 16px;
   box-shadow: 0 0 16px rgba(133, 133, 133, 0.15);
+  padding: 8px 56px 32px 56px;
+  margin-bottom: 80px;
  }
 
  .boxTitle {
   text-align: center;
   margin: auto;
-  padding-top: 16px;
  }
 
  .inBox {
   display: flex;
-  margin: auto;
  }
 
  .boxTitle h1 {
@@ -111,12 +112,37 @@ body {
  }
 
  .boxRight {
-  float: right;
-  margin-right: 32px;
+  flex: 1 1 50%;
+  margin-right: 72px;
  }
 
  .boxLeft {
-  float: left;
+  flex: 1 1 50%;
+ }
+
+ .language p {
+  font-size: 18px;
+  margin-right: 80px;
+ }
+
+ .lineContent {
+  display: flex;
+  flex: 1 1 70%;
+ }
+
+ .lineContent ul {
+  margin-right: 24px;
+ }
+
+ .skills {
+  text-align: center;
+  margin-right: 144px;
+  max-width: 48px;
+ }
+
+ .skillsLast {
+  text-align: center;
+  max-width: 48px;
  }
 
  /* Emoji Styles */
@@ -130,4 +156,9 @@ body {
   max-width: 48px;
   margin-bottom: -6px;
   margin-left: 8px;
+ }
+
+ .emojiLanguage {
+  max-width: 48px;
+  margin-bottom: -8px;
  }
